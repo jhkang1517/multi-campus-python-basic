@@ -41,10 +41,7 @@ class crl():
             b_tag = div.find('div', class_='price-label ml-3').find('span')
             guitar_dict['price'] = b_tag.text.strip()
             
-<<<<<<< HEAD
             print('{}에 대한 정보를 가져오는 중입니다.'.format(a_tag.text))
-=======
->>>>>>> 398a60abd6fdd0a54923759df078739c0fd31aad
             detail_resp = requests.get('https://www.gibson.com'+a_tag['href'])
             detail_soup = BeautifulSoup(detail_resp.content, 'html.parser')
             detail_content = detail_soup.find('div', class_='gibson-card py-4')
