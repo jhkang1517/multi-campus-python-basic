@@ -14,7 +14,7 @@ class InstascrapySpider(scrapy.Spider):
     allowed_domains = ['instagram.com']
     start_urls = ['http://instagram.com/']
 
-    keyword = "키즈카페"
+    keyword = "코로나"
     max_id = ""
     url = ""
    
