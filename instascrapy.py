@@ -9,7 +9,7 @@ import csv
 from insta_explore.items import InstaExploreItem
 
 
-class InstascrapySpider(scrapy.Spider):
+class InstascrapySpider(scrapy.Spider): #
     name = 'instascrapy'
     allowed_domains = ['instagram.com']
     start_urls = ['http://instagram.com/']
