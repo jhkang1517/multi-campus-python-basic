@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
+# 20200802 기준 수정사항
 
 # In[1]:
 
